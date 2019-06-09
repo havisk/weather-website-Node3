@@ -1,6 +1,6 @@
 #**Weather App**
 
-- It [Mapbox](https://mapbox.com) to translate locations into latitude and logitude coordinates and [Darksky](https://darksky.net/dev) takes the coordinates and delivers the weather.
+- [Mapbox](https://mapbox.com) translates the given location into latitude and logitude coordinates and [Darksky](https://darksky.net/dev) takes the coordinates and delivers the weather.
 
 ##**Tech Used**
 
