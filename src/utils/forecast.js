@@ -15,7 +15,11 @@ const forecast = (long, lat, callback) => {
           body.currently.temperature
         } degrees outside. There is a ${
           body.currently.precipProbability
-        } chance of rain.`
+        } chance of rain. The high for the day is ${
+          body.daily.data[0].temperatureHigh
+        } degrees, The low for the day is ${
+          body.daily.data[0].temperatureLow
+        } degrees.`
       );
     }
   });
